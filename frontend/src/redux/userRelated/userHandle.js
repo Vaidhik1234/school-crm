@@ -14,7 +14,7 @@ import {
 } from './userSlice';
 import { Navigate } from 'react-router-dom';
 
-const REACT_APP_BASE_URL = "https://school-mangement-crm-git-main-adityashivhare7291s-projects.vercel.app";
+const REACT_APP_BASE_URL = "https://school-crm-rm9v.vercel.app";
 
 export const loginUser = (fields, role) => async (dispatch) => {
     dispatch(authRequest());
